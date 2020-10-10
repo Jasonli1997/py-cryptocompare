@@ -29,6 +29,7 @@ def utc_to_datetime(df, formatting):
         df_new = df.apply(lambda x: datetime.utcfromtimestamp(x).strftime('%Y-%m-%d %H:%S'))
     return df_new
 
+
 # Create the class with all the pertinent parameters
 class CryptoCompareAPI:
     def __init__(self, key):
