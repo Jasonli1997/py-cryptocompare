@@ -159,6 +159,8 @@ class CryptoCompareAPI:
         if plot:        
             data.dropna().plot(linewidth=2.0)
             plt.title('{}{} Realized Volatility of Selected Coins'.format(window, period))
+            plt.xticks(rotation=45)
+            plt.ylabel('%')
             plt.show()
         return data
 
