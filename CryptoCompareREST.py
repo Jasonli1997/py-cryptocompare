@@ -251,7 +251,7 @@ class CryptoCompareAPI:
 
 
 if __name__ == '__main__':
-    api_key = 'b9bc22532ba34f0ad8dcdc26c60ca833a968b274f96b5cd6b7805ee4b7a7fb49'
+    api_key = ''
     api = CryptoCompareAPI(api_key)
     date_from = datetime(2018, 1, 1)
     date_to = datetime.now()
